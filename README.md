@@ -172,14 +172,28 @@ For production-quality TTS with better clarity, consider these alternatives:
 
 ### Open Source Models
 
+#### Actively Maintained (2024-2025)
+
 | Model | Stars | Released | Status | Description | Link |
 |-------|-------|----------|--------|-------------|------|
-| **Coqui XTTS** | 44k | 2023 | Community maintained (company closed Jan 2024) | Most popular, multilingual voice cloning | [GitHub](https://github.com/coqui-ai/TTS) |
-| **Bark** | 39k | Apr 2023 | Stable (Suno.ai) | Emotions, laughter, music | [GitHub](https://github.com/suno-ai/bark) |
-| **Piper** | 10k | 2023 | Active | Fast, lightweight, 100+ voices | [GitHub](https://github.com/rhasspy/piper) |
-| **StyleTTS 2** | 5k | Nov 2023 | Active | Near human-quality | [GitHub](https://github.com/yl4579/StyleTTS2) |
-| **MARS5** | 2.8k | Jun 2024 | Active (CAMB.AI) | Excellent voice cloning | [GitHub](https://github.com/Camb-ai/MARS5-TTS) |
-| **Sopro** | 600 | Nov 2024 | Active | Lightweight, fast | [GitHub](https://github.com/samuel-vitorino/sopro) |
+| **Fish Speech** | 24.6k | 2024 | Very Active (Jan 2026) | SOTA quality, multilingual | [GitHub](https://github.com/fishaudio/fish-speech) |
+| **Chatterbox** | 21k | May 2025 | Very Active (Resemble AI) | Studio-quality, fast inference | [GitHub](https://github.com/resemble-ai/chatterbox) |
+| **IndexTTS** | 16.7k | 2024 | Active (Dec 2025) | Industrial-level, controllable | [GitHub](https://github.com/index-tts/index-tts) |
+| **F5-TTS** | 13.9k | Oct 2024 | Active | Flow matching, high quality | [GitHub](https://github.com/SWivid/F5-TTS) |
+| **Orpheus TTS** | 5.8k | Mar 2025 | Active (Canopy Labs) | Human-like, emotional | [GitHub](https://github.com/canopyai/Orpheus-TTS) |
+| **Kokoro** | 5.3k | Jan 2025 | Active | Lightweight 82M, fast | [GitHub](https://github.com/hexgrad/kokoro) |
+| **Dia** | 4k+ | Apr 2025 | Active (Nari Labs) | Realistic dialogue | [GitHub](https://github.com/nari-labs/dia) |
+| **Sesame CSM** | 3k+ | Feb 2025 | Active | Conversational, 1B model | [GitHub](https://github.com/SesameAILabs/csm) |
+| **Sopro** | 600 | Nov 2024 | Active | Lightweight 169M, fast | [GitHub](https://github.com/samuel-vitorino/sopro) |
+
+#### Legacy (Less Active)
+
+| Model | Stars | Released | Status | Description | Link |
+|-------|-------|----------|--------|-------------|------|
+| **Coqui XTTS** | 44k | 2023 | Community maintained (company closed Jan 2024) | Still popular, multilingual | [GitHub](https://github.com/coqui-ai/TTS) |
+| **Bark** | 39k | Apr 2023 | Stable, no recent updates | Emotions, laughter, music | [GitHub](https://github.com/suno-ai/bark) |
+| **Piper** | 10k | 2023 | Stable (last release Nov 2023) | Fast, 100+ voices | [GitHub](https://github.com/rhasspy/piper) |
+| **StyleTTS 2** | 5k | Nov 2023 | Stable, occasional updates | Near human-quality | [GitHub](https://github.com/yl4579/StyleTTS2) |
 
 ### Proprietary / Cloud APIs
 

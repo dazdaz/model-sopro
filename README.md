@@ -199,7 +199,9 @@ For production-quality TTS with better clarity, consider these alternatives:
 
 | Service | Quality | Status | Pricing | Link |
 |---------|---------|--------|---------|------|
+| **OpenAI GPT-4o-mini-tts** | Excellent, expressive | Active (2025) | $0.015/min | [Docs](https://platform.openai.com/docs/models/gpt-4o-mini-tts) |
 | **OpenAI TTS** | Excellent | Active | $15/1M chars | [Docs](https://platform.openai.com/docs/guides/text-to-speech) |
+| **xAI Grok Voice** | Real-time, conversational | Active (Dec 2025) | $0.05/min | [Docs](https://docs.x.ai/docs/guides/voice) |
 | **ElevenLabs** | Very realistic | Active, popular | Free tier + paid plans | [Website](https://elevenlabs.io/) |
 | **Google Cloud TTS** | Good, 220+ voices | Active | Pay per use | [Docs](https://cloud.google.com/text-to-speech) |
 | **Amazon Polly** | Good | Active | Pay per use | [Docs](https://aws.amazon.com/polly/) |

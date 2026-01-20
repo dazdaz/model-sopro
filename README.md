@@ -1,20 +1,10 @@
 # TTS & Translation Model Comparison
 
-A comparison of text-to-speech and translation models, with a demo implementation using [Sopro](model-sopro/).
+A comparison of text-to-speech and translation models, with a [Sopro demo implementation](model-sopro/).
 
-## Quality Considerations
+## Open Source Models
 
-Sopro is a lightweight 169M parameter model - it trades quality for speed and size. This makes it:
-
-- Fast inference, especially on Apple Silicon (MPS)
-- Small model size, easy to run locally
-- Good for prototyping and experimentation
-
-For production-quality TTS with better clarity, consider these alternatives:
-
-### Open Source Models
-
-#### Actively Maintained (2024-2025)
+### Actively Maintained (2024-2025)
 
 | Model | Params | Size | Quality | Stars | Released | Status | Link |
 |-------|--------|------|---------|-------|----------|--------|------|

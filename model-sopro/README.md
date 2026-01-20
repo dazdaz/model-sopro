@@ -2,6 +2,16 @@
 
 A sample app for [Sopro](https://github.com/samuel-vitorino/sopro) - a lightweight 169M parameter text-to-speech model with voice cloning.
 
+## Quality Considerations
+
+Sopro is a lightweight 169M parameter model - it trades quality for speed and size. This makes it:
+
+- Fast inference, especially on Apple Silicon (MPS)
+- Small model size, easy to run locally
+- Good for prototyping and experimentation
+
+For production-quality TTS with better clarity, see the [model comparison](../README.md).
+
 ## Setup
 
 ```bash

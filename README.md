@@ -184,6 +184,7 @@ For production-quality TTS with better clarity, consider these alternatives:
 | **Kokoro** | 82M | 350 MB | Good | 5.3k | Jan 2025 | Apache 2.0 + paid API | [GitHub](https://github.com/hexgrad/kokoro) |
 | **Dia** | 1.6B | ~6 GB | Excellent | 4k+ | Apr 2025 | Apache 2.0 (free) | [GitHub](https://github.com/nari-labs/dia) |
 | **Sesame CSM** | 1B | ~4 GB | Excellent | 3k+ | Feb 2025 | Apache 2.0 (free) | [GitHub](https://github.com/SesameAILabs/csm) |
+| **Microsoft VibeVoice** | 0.5B/1.5B/7B | 2-28 GB | Excellent | 10k+ | Aug 2025 | MIT (free) | [GitHub](https://github.com/microsoft/VibeVoice) |
 | **Sopro** | 169M | ~650 MB | Good | 600 | Nov 2024 | Apache 2.0 (free) | [GitHub](https://github.com/samuel-vitorino/sopro) |
 
 #### Legacy (Less Active)

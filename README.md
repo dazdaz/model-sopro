@@ -33,6 +33,8 @@ A comparison of text-to-speech and translation models, with a [Sopro demo implem
 
 ### Translation Models
 
+Open-source models for translating text between languages. These can run locally for privacy or be deployed for production use.
+
 | Model | Params | Languages | Quality | Use Case | License | Links |
 |-------|--------|-----------|---------|----------|---------|-------|
 | **TranslateGemma** | 4B/12B/27B | 55 | Excellent | Image text, multimodal translation | Apache 2.0 | [HuggingFace](https://huggingface.co/collections/google/translategemma) / [Kaggle](https://www.kaggle.com/models/google/translategemma) |

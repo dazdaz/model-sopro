@@ -10,17 +10,17 @@ A comparison of text-to-speech and translation models, with a [Sopro demo implem
 
 | Model | Params | Size | Voices | Quality | Use Case | Released | License | Link |
 |-------|--------|------|--------|---------|----------|----------|---------|------|
-| **Fish Speech** | 500M | ~1.7 GB | 200k+ + Clone | Excellent | General TTS, voice cloning | 2024 | Apache 2.0 | [GitHub](https://github.com/fishaudio/fish-speech) |
-| **Chatterbox** | 350M | ~1.5 GB | 0 + Clone | Excellent | Voice cloning, emotion control | May 2025 | MIT | [GitHub](https://github.com/resemble-ai/chatterbox) |
-| **IndexTTS** | 300M | ~2.5 GB | 0 + Clone | Excellent | Voice cloning, Chinese/English | 2024 | Apache 2.0 | [GitHub](https://github.com/index-tts/index-tts) |
-| **F5-TTS** | 335M | 1.35 GB | 0 + Clone | Excellent | Zero-shot voice cloning | Oct 2024 | MIT/CC-BY-NC | [GitHub](https://github.com/SWivid/F5-TTS) |
-| **Microsoft VibeVoice** | 0.5B-7B | 2-28 GB | 4 + Clone | Excellent | Podcasts, audiobooks, multi-speaker | Aug 2025 | MIT | [GitHub](https://github.com/microsoft/VibeVoice) |
-| **Dia** | 1.6B | ~6 GB | 2 + Clone | Excellent | Dialogue, multi-speaker conversations | Apr 2025 | Apache 2.0 | [GitHub](https://github.com/nari-labs/dia) |
-| **PersonaPlex-7B** | 7.7B | ~15 GB | 0 + Clone | Excellent | Full-duplex conversation, real-time | Mar 2025 | MIT | [GitHub](https://github.com/NVIDIA/personaplex) |
-| **Sesame CSM** | 1B | ~4 GB | 0 + Clone | Excellent | Conversational, expressive speech | Feb 2025 | Apache 2.0 | [GitHub](https://github.com/SesameAILabs/csm) |
-| **Orpheus TTS** | 150M-3B | 0.6-12 GB | 12 + Clone | Very Good | Emotional speech, low latency | Mar 2025 | Apache 2.0 | [GitHub](https://github.com/canopyai/Orpheus-TTS) |
-| **Kokoro** | 82M | 350 MB | 10+ + Clone | Good | Lightweight, fast inference | Jan 2025 | Apache 2.0 | [GitHub](https://github.com/hexgrad/kokoro) |
-| **Sopro** | 169M | ~650 MB | 0 + Clone | Good | Prototyping, voice cloning | Nov 2024 | Apache 2.0 | [GitHub](https://github.com/samuel-vitorino/sopro) |
+| **Fish Speech** | 500M | ~1.7 GB | 200k+ + Clone | Excellent | General TTS, voice cloning | 2024 | Apache 2.0 | [Listen 🎵](https://speech.fish.audio/samples/) | [GitHub](https://github.com/fishaudio/fish-speech) |
+| **Chatterbox** | 350M | ~1.5 GB | 0 + Clone | Excellent | Voice cloning, emotion control | May 2025 | MIT | [Listen 🎵](https://www.resemble.ai/chatterbox/) | [GitHub](https://github.com/resemble-ai/chatterbox) |
+| **IndexTTS** | 300M | ~2.5 GB | 0 + Clone | Excellent | Voice cloning, Chinese/English | 2024 | Apache 2.0 | [Listen 🎵](https://index-tts.github.io/index-tts2.github.io/) | [GitHub](https://github.com/index-tts/index-tts) |
+| **F5-TTS** | 335M | 1.35 GB | 0 + Clone | Excellent | Zero-shot voice cloning | Oct 2024 | MIT/CC-BY-NC | [Listen 🎵](https://swivid.github.io/F5-TTS/) | [GitHub](https://github.com/SWivid/F5-TTS) |
+| **Microsoft VibeVoice** | 0.5B-7B | 2-28 GB | 4 + Clone | Excellent | Podcasts, audiobooks, multi-speaker | Aug 2025 | MIT | [Listen 🎵](https://microsoft.github.io/VibeVoice/) | [GitHub](https://github.com/microsoft/VibeVoice) |
+| **Dia** | 1.6B | ~6 GB | 2 + Clone | Excellent | Dialogue, multi-speaker conversations | Apr 2025 | Apache 2.0 | [Listen 🎵](https://huggingface.co/spaces/nari-labs/Dia-1.6B) | [GitHub](https://github.com/nari-labs/dia) |
+| **PersonaPlex-7B** | 7.7B | ~15 GB | 0 + Clone | Excellent | Full-duplex conversation, real-time | Mar 2025 | MIT | [Listen 🎵](https://research.nvidia.com/labs/adlr/personaplex/) | [GitHub](https://github.com/NVIDIA/personaplex) |
+| **Sesame CSM** | 1B | ~4 GB | 0 + Clone | Excellent | Conversational, expressive speech | Feb 2025 | Apache 2.0 | [Listen 🎵](https://huggingface.co/spaces/sesame/csm-1b) | [GitHub](https://github.com/SesameAILabs/csm) |
+| **Orpheus TTS** | 150M-3B | 0.6-12 GB | 12 + Clone | Very Good | Emotional speech, low latency | Mar 2025 | Apache 2.0 | [Listen 🎵](https://github.com/canopyai/Orpheus-TTS) | [GitHub](https://github.com/canopyai/Orpheus-TTS) |
+| **Kokoro** | 82M | 350 MB | 10+ + Clone | Good | Lightweight, fast inference | Jan 2025 | Apache 2.0 | [Listen 🎵](https://huggingface.co/spaces/amphion/Kokoro-82M) | [GitHub](https://github.com/hexgrad/kokoro) |
+| **Sopro** | 169M | ~650 MB | 0 + Clone | Good | Prototyping, voice cloning | Nov 2024 | Apache 2.0 | [Listen 🎵](https://github.com/samuel-vitorino/sopro) | [GitHub](https://github.com/samuel-vitorino/sopro) |
 
 ### Proprietary / Cloud APIs
 

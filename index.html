@@ -234,7 +234,8 @@
                 "use_case": "General TTS, voice cloning",
                 "released": "2024",
                 "license": "Apache 2.0",
-                "link": "https://github.com/fishaudio/fish-speech"
+                "link": "https://github.com/fishaudio/fish-speech",
+                "sample": "https://speech.fish.audio/samples/"
             },
             {
                 "name": "Chatterbox",
@@ -245,7 +246,8 @@
                 "use_case": "Voice cloning, emotion control",
                 "released": "May 2025",
                 "license": "MIT",
-                "link": "https://github.com/resemble-ai/chatterbox"
+                "link": "https://github.com/resemble-ai/chatterbox",
+                "sample": "https://www.resemble.ai/chatterbox/"
             },
             {
                 "name": "IndexTTS",
@@ -256,7 +258,8 @@
                 "use_case": "Voice cloning, Chinese/English",
                 "released": "2024",
                 "license": "Apache 2.0",
-                "link": "https://github.com/index-tts/index-tts"
+                "link": "https://github.com/index-tts/index-tts",
+                "sample": "https://index-tts.github.io/index-tts2.github.io/"
             },
             {
                 "name": "F5-TTS",
@@ -267,7 +270,8 @@
                 "use_case": "Zero-shot voice cloning",
                 "released": "Oct 2024",
                 "license": "MIT/CC-BY-NC",
-                "link": "https://github.com/SWivid/F5-TTS"
+                "link": "https://github.com/SWivid/F5-TTS",
+                "sample": "https://swivid.github.io/F5-TTS/"
             },
             {
                 "name": "Microsoft VibeVoice",
@@ -278,7 +282,8 @@
                 "use_case": "Podcasts, audiobooks, multi-speaker",
                 "released": "Aug 2025",
                 "license": "MIT",
-                "link": "https://github.com/microsoft/VibeVoice"
+                "link": "https://github.com/microsoft/VibeVoice",
+                "sample": "https://microsoft.github.io/VibeVoice/"
             },
             {
                 "name": "Orpheus TTS",
@@ -289,7 +294,8 @@
                 "use_case": "Emotional speech, low latency",
                 "released": "Mar 2025",
                 "license": "Apache 2.0",
-                "link": "https://github.com/canopyai/Orpheus-TTS"
+                "link": "https://github.com/canopyai/Orpheus-TTS",
+                "sample": "https://github.com/canopyai/Orpheus-TTS"
             },
             {
                 "name": "Dia",
@@ -300,7 +306,8 @@
                 "use_case": "Dialogue, multi-speaker conversations",
                 "released": "Apr 2025",
                 "license": "Apache 2.0",
-                "link": "https://github.com/nari-labs/dia"
+                "link": "https://github.com/nari-labs/dia",
+                "sample": "https://huggingface.co/spaces/nari-labs/Dia-1.6B"
             },
             {
                 "name": "PersonaPlex-7B",
@@ -311,7 +318,8 @@
                 "use_case": "Full-duplex conversation, real-time",
                 "released": "Mar 2025",
                 "license": "MIT",
-                "link": "https://github.com/NVIDIA/personaplex"
+                "link": "https://github.com/NVIDIA/personaplex",
+                "sample": "https://research.nvidia.com/labs/adlr/personaplex/"
             },
             {
                 "name": "Sesame CSM",
@@ -322,7 +330,8 @@
                 "use_case": "Conversational, expressive speech",
                 "released": "Feb 2025",
                 "license": "Apache 2.0",
-                "link": "https://github.com/SesameAILabs/csm"
+                "link": "https://github.com/SesameAILabs/csm",
+                "sample": "https://huggingface.co/spaces/sesame/csm-1b"
             },
             {
                 "name": "Kokoro",
@@ -333,7 +342,8 @@
                 "use_case": "Lightweight, fast inference",
                 "released": "Jan 2025",
                 "license": "Apache 2.0",
-                "link": "https://github.com/hexgrad/kokoro"
+                "link": "https://github.com/hexgrad/kokoro",
+                "sample": "https://huggingface.co/spaces/amphion/Kokoro-82M"
             },
             {
                 "name": "Sopro",
@@ -344,7 +354,8 @@
                 "use_case": "Prototyping, voice cloning",
                 "released": "Nov 2024",
                 "license": "Apache 2.0",
-                "link": "https://github.com/samuel-vitorino/sopro"
+                "link": "https://github.com/samuel-vitorino/sopro",
+                "sample": "https://github.com/samuel-vitorino/sopro"
             }
         ];
 
@@ -434,7 +445,10 @@
                         </div>
                     </div>
                     <div class="actions">
-                        <a href="${model.link}" target="_blank" class="btn">View on GitHub</a>
+                        <div style="display: flex; gap: 0.5rem; justify-content: stretch;">
+                            <a href="${model.sample}" target="_blank" class="btn" style="flex: 1; background: var(--card-bg); border: 1px solid var(--border); color: var(--text-primary);">Listen 🎵</a>
+                            <a href="${model.link}" target="_blank" class="btn" style="flex: 1;">GitHub</a>
+                        </div>
                     </div>
                 </div>
             `).join('');

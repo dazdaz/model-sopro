@@ -130,5 +130,41 @@
     "license": "Apache 2.0",
     "link": "https://github.com/samuel-vitorino/sopro",
     "sample": "https://github.com/samuel-vitorino/sopro"
+  },
+  {
+    "name": "LuxTTS",
+    "params": "Unknown",
+    "size": "< 1 GB VRAM",
+    "voices": "0 + Clone",
+    "quality": "Excellent",
+    "use_case": "High-speed voice cloning, real-time",
+    "released": "Jan 2026",
+    "license": "Apache 2.0",
+    "link": "https://github.com/ysharma3501/LuxTTS",
+    "sample": "https://github.com/ysharma3501/LuxTTS"
+  },
+  {
+    "name": "Qwen3-TTS",
+    "params": "Unknown",
+    "size": "Unknown",
+    "voices": "Design + Clone",
+    "quality": "Excellent",
+    "use_case": "Voice design, cloning, storytelling",
+    "released": "Dec 2025",
+    "license": "Unknown",
+    "link": "https://huggingface.co/spaces/Qwen/Qwen3-TTS",
+    "sample": "https://huggingface.co/spaces/Qwen/Qwen3-TTS"
+  },
+  {
+    "name": "Pocket TTS",
+    "params": "Unknown",
+    "size": "Small",
+    "voices": "Unknown",
+    "quality": "Good",
+    "use_case": "On-device CPU inference",
+    "released": "Jan 2026",
+    "license": "MIT",
+    "link": "https://github.com/kyutai-labs/pocket-tts",
+    "sample": "https://github.com/kyutai-labs/pocket-tts"
   }
 ]

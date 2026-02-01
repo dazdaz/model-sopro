@@ -205,6 +205,7 @@
                     <option value="quality">Quality</option>
                     <option value="params">Parameters</option>
                     <option value="size">Size</option>
+                    <option value="hz">Sample Rate</option>
                     <option value="released">Release Date</option>
                 </select>
             </div>
@@ -437,6 +438,14 @@
             return 0;
         };
 
+        const parseHz = (str) => {
+            // Handle "24k", "44.1k", "48k", "16-22k"
+            if (!str) return 0;
+            const val = parseFloat(str.replace(/[^\d.]/g, ''));
+            if (str.includes('k')) return val * 1000;
+            return val;
+        };
+
         const parseDate = (str) => {
             // Handle "May 2025", "2024", "Oct 2024"
             // Default 2024 to Jan 1
@@ -470,6 +479,9 @@
                 } else if (sortBy === 'size') {
                     valA = parseSize(a.size.split('-').pop());
                     valB = parseSize(b.size.split('-').pop());
+                } else if (sortBy === 'hz') {
+                    valA = parseHz(a.hz.split('-').pop());
+                    valB = parseHz(b.hz.split('-').pop());
                 } else if (sortBy === 'released') {
                     valA = parseDate(a.released);
                     valB = parseDate(b.released);

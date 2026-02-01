@@ -229,6 +229,7 @@
                 "name": "Fish Speech",
                 "params": "500M",
                 "size": "~1.7 GB",
+                "hz": "44.1k",
                 "voices": "200k+ + Clone",
                 "quality": "Excellent",
                 "use_case": "General TTS, voice cloning",
@@ -241,6 +242,7 @@
                 "name": "Chatterbox",
                 "params": "350M",
                 "size": "~1.5 GB",
+                "hz": "24k",
                 "voices": "0 + Clone",
                 "quality": "Excellent",
                 "use_case": "Voice cloning, emotion control",
@@ -253,6 +255,7 @@
                 "name": "IndexTTS",
                 "params": "300M",
                 "size": "~2.5 GB",
+                "hz": "24k",
                 "voices": "0 + Clone",
                 "quality": "Excellent",
                 "use_case": "Voice cloning, Chinese/English",
@@ -265,6 +268,7 @@
                 "name": "F5-TTS",
                 "params": "335M",
                 "size": "1.35 GB",
+                "hz": "24k",
                 "voices": "0 + Clone",
                 "quality": "Excellent",
                 "use_case": "Zero-shot voice cloning",
@@ -277,6 +281,7 @@
                 "name": "Microsoft VibeVoice",
                 "params": "0.5B-7B",
                 "size": "2-28 GB",
+                "hz": "24k",
                 "voices": "4 + Clone",
                 "quality": "Excellent",
                 "use_case": "Podcasts, audiobooks, multi-speaker",
@@ -289,6 +294,7 @@
                 "name": "Orpheus TTS",
                 "params": "150M-3B",
                 "size": "0.6-12 GB",
+                "hz": "24k",
                 "voices": "12 + Clone",
                 "quality": "Very Good",
                 "use_case": "Emotional speech, low latency",
@@ -301,6 +307,7 @@
                 "name": "Dia",
                 "params": "1.6B",
                 "size": "~6 GB",
+                "hz": "44.1k",
                 "voices": "2 + Clone",
                 "quality": "Excellent",
                 "use_case": "Dialogue, multi-speaker conversations",
@@ -313,6 +320,7 @@
                 "name": "PersonaPlex-7B",
                 "params": "7.7B",
                 "size": "~15 GB",
+                "hz": "24k",
                 "voices": "0 + Clone",
                 "quality": "Excellent",
                 "use_case": "Full-duplex conversation, real-time",
@@ -325,6 +333,7 @@
                 "name": "Sesame CSM",
                 "params": "1B",
                 "size": "~4 GB",
+                "hz": "24k",
                 "voices": "0 + Clone",
                 "quality": "Excellent",
                 "use_case": "Conversational, expressive speech",
@@ -337,6 +346,7 @@
                 "name": "Kokoro",
                 "params": "82M",
                 "size": "350 MB",
+                "hz": "24k",
                 "voices": "10+ + Clone",
                 "quality": "Good",
                 "use_case": "Lightweight, fast inference",
@@ -349,6 +359,7 @@
                 "name": "Sopro",
                 "params": "169M",
                 "size": "~650 MB",
+                "hz": "24k",
                 "voices": "0 + Clone",
                 "quality": "Good",
                 "use_case": "Prototyping, voice cloning",
@@ -361,6 +372,7 @@
                 "name": "LuxTTS",
                 "params": "Unknown",
                 "size": "< 1 GB VRAM",
+                "hz": "48k",
                 "voices": "0 + Clone",
                 "quality": "Excellent",
                 "use_case": "High-speed voice cloning, real-time",
@@ -373,6 +385,7 @@
                 "name": "Qwen3-TTS",
                 "params": "Unknown",
                 "size": "Unknown",
+                "hz": "24k",
                 "voices": "Design + Clone",
                 "quality": "Excellent",
                 "use_case": "Voice design, cloning, storytelling",
@@ -382,9 +395,23 @@
                 "sample": "https://huggingface.co/spaces/Qwen/Qwen3-TTS"
             },
             {
+                "name": "Fun Audio Chat",
+                "params": "8B",
+                "size": "~32 GB",
+                "hz": "24k",
+                "voices": "0 + Clone",
+                "quality": "Excellent",
+                "use_case": "Emotion-aware chat, voice assistants",
+                "released": "Dec 2025",
+                "license": "Apache 2.0",
+                "link": "https://github.com/FunAudioLLM/FunAudioChat",
+                "sample": "https://funaudio.chat"
+            },
+            {
                 "name": "Pocket TTS",
                 "params": "Unknown",
                 "size": "Small",
+                "hz": "24k",
                 "voices": "Unknown",
                 "quality": "Good",
                 "use_case": "On-device CPU inference",
@@ -467,6 +494,10 @@
                         <div class="detail-row">
                             <span class="label">Size</span>
                             <span class="value">${model.size}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="label">Sample Rate</span>
+                            <span class="value">${model.hz}</span>
                         </div>
                         <div class="detail-row">
                             <span class="label">Voices</span>
